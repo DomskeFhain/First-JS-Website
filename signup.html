@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <script src="./signup.js"></script>
+    <title>Domskezone | Registrierung</title>
+</head>
+<body>
+    <div class="navbarContainer">
+        <div class="navArea navAreaOne">
+          <a href="index.html">
+            <img src="./images/Logo1.webp" class="logoImg" />
+          </a>
+          <a class="navBtn" href="login.html">Login</a>
+        </div>
+        <div class="navArea navAreaTwo">
+          <h2>Domskezone | Registrierung</h2>
+        </div>
+        <div class="navArea navAreaThree"></div>
+    </div>
+    <div class="contentContainer">
+        <div onclick="userSignUp()">
+            <input class="signup" id="firstName" placeholder="Vorname" >
+            <input class="signup" id="familyName" placeholder="Nachname"><br>
+            <input class="signup" id="emailTI" placeholder="E-Mail">
+            <input class="signup" id="passwordTI" placeholder="Passwort"><br>
+            <input class="signup" id="repeatPasswordTI" placeholder="Passwort wiederholen">
+            <button class="signup">Registrieren</button>
+        </div>
+    </div>
+    <div class="footerContainer"></div>
+</body>
+</html>
